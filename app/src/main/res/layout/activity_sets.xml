@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sets"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:padding="16dp"/>
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/sets_grid"
+        android:layout_weight="1"
+        android:horizontalSpacing="16dp"
+        android:verticalSpacing="16dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:columnWidth="100dp"
+        android:numColumns="auto_fit"
+        />
+
+
+</LinearLayout>
