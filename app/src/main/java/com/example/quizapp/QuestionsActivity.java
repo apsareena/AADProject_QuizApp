@@ -160,13 +160,13 @@ public class QuestionsActivity extends AppCompatActivity implements View.OnClick
                 selectedOption=1;
                 break;
             case R.id.button2:
-                selectedOption=1;
+                selectedOption=2;
                 break;
             case R.id.button3:
-                selectedOption=1;
+                selectedOption=3;
                 break;
             case R.id.button4:
-                selectedOption=1;
+                selectedOption=4;
                 break;
             default:
         }
