@@ -202,16 +202,16 @@ public class QuestionsActivity extends AppCompatActivity implements View.OnClick
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                ((Button) view).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#BB86FC")));
+                ((Button) view).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#6200ee")));
                 switch (selectedOption){
                     case 1:
-                        option1.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#BB86FC")));
+                        option1.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#6200ee")));
                     case 2:
-                        option2.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#BB86FC")));
+                        option2.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#6200ee")));
                     case 3:
-                        option3.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#BB86FC")));
+                        option3.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#6200ee")));
                     case 4:
-                        option4.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#BB86FC")));
+                        option4.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#6200ee")));
                 }
                 changeQuestion();
             }
