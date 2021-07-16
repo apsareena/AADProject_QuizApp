@@ -8,11 +8,12 @@
     android:background="@color/colorPrimary">
 
     <TextView
+        android:id="@+id/category_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/aladin"
         android:text="Cat 1"
-        android:id="@+id/category_name"
         android:textColor="@color/colorAccent"
-        android:textSize="50dp"/>
+        android:textSize="50dp" />
 
 </LinearLayout>
