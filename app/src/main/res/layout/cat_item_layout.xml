@@ -13,6 +13,6 @@
         android:text="Cat 1"
         android:id="@+id/category_name"
         android:textColor="@color/colorAccent"
-        android:textSize="10dp"/>
+        android:textSize="50dp"/>
 
 </LinearLayout>
