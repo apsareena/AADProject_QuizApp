@@ -10,7 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizApp">
         <activity android:name=".ScoreActivity"></activity>
-        <activity android:name=".QuestionsActivity" />
+        <activity android:name=".QuestionsActivity"
+            android:configChanges = "orientation|screenSize">
+        </activity>
         <activity
             android:name=".SetsActivity"
             android:label="Sets"
