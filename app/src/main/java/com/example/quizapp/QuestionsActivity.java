@@ -37,7 +37,6 @@ public class QuestionsActivity extends AppCompatActivity implements View.OnClick
     private FirebaseFirestore firestore;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

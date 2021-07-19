@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizApp">
-        <activity android:name=".ScoreActivity"></activity>
-        <activity android:name=".QuestionsActivity"
-            android:configChanges = "orientation|screenSize">
-        </activity>
+        <activity android:name=".ScoreActivity" />
+        <activity
+            android:name=".QuestionsActivity"
+            android:configChanges="orientation|screenSize"></activity>
         <activity
             android:name=".SetsActivity"
             android:label="Sets"
@@ -32,7 +32,6 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

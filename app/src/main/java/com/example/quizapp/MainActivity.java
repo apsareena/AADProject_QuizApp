@@ -9,6 +9,9 @@ import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -31,6 +34,24 @@ public class MainActivity extends AppCompatActivity {
     private Dialog loadingDialog;
 
     @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.aboutus:
+                Toast.makeText(this, "Should go to About Us page", Toast.LENGTH_SHORT).show();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -46,8 +67,10 @@ public class MainActivity extends AppCompatActivity {
         title = findViewById(R.id.main_title);
         start = findViewById(R.id.main_start);
 
+
         Typeface typeface = ResourcesCompat.getFont(this, R.font.blacklist);
         title.setTypeface(typeface);
+
 
         start.setOnClickListener(new View.OnClickListener() {
             @Override
