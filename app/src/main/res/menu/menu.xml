@@ -6,5 +6,16 @@
         android:id="@+id/aboutus"
         android:title="About Us"
         app:showAsAction="never"/>
-
+    <item
+        android:id="@+id/login"
+        android:title="Login"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/signup"
+        android:title="Create Account"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/signout"
+        android:title="Sign Out"
+        app:showAsAction="never"/>
 </menu>

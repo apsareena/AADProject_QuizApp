@@ -2,12 +2,16 @@ package com.example.quizapp;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.GridView;
 import android.widget.Toast;
+
+import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +25,32 @@ public class CategoryActivity extends AppCompatActivity {
         inflater.inflate(R.menu.menu,menu);
         return true;
     }
-
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch(item.getItemId()) {
+            case R.id.aboutus:
+                Toast.makeText(this, "Should go to about us page", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.login:
+                Intent intent = new Intent(CategoryActivity.this, LoginActivity.class);
+                startActivity(intent);
+                finish();
+                return true;
+            case R.id.signup:
+                Intent intent1 = new Intent(CategoryActivity.this, RegisterActivity.class);
+                startActivity(intent1);
+                finish();
+                return true;
+            case R.id.signout:
+                FirebaseAuth.getInstance().signOut();
+                Intent intent2 = new Intent(CategoryActivity.this, LoginActivity.class);
+                startActivity(intent2);
+                finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
 
 
     @Override
@@ -42,16 +71,4 @@ public class CategoryActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        if(item.getItemId()==android.R.id.home){
-            CategoryActivity.this.finish();
-        }
-        switch (item.getItemId()){
-            case R.id.aboutus:
-                Toast.makeText(this, "Should go to About Us page", Toast.LENGTH_SHORT).show();
-                return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
 }

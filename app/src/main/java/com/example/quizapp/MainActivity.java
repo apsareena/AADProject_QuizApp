@@ -20,6 +20,7 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 
@@ -42,9 +43,25 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        switch (item.getItemId()){
+        switch(item.getItemId()) {
             case R.id.aboutus:
-                Toast.makeText(this, "Should go to About Us page", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Should go to about us page", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.login:
+                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(intent);
+                finish();
+                return true;
+            case R.id.signup:
+                Intent intent1 = new Intent(MainActivity.this, RegisterActivity.class);
+                startActivity(intent1);
+                finish();
+                return true;
+            case R.id.signout:
+                FirebaseAuth.getInstance().signOut();
+                Intent intent2 = new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(intent2);
+                finish();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
