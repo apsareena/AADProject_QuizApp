@@ -16,25 +16,7 @@ import android.widget.Toast;
 public class ScoreActivity extends AppCompatActivity {
     private TextView score;
     private Button done;
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu,menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        switch (item.getItemId()){
-            case R.id.aboutus:
-                Intent intent3 = new Intent(ScoreActivity.this,AboutUsActivity.class);
-                startActivity(intent3);
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
-    }
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
