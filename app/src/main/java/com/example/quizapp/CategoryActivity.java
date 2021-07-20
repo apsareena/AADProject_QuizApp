@@ -29,7 +29,8 @@ public class CategoryActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch(item.getItemId()) {
             case R.id.aboutus:
-                Toast.makeText(this, "Should go to about us page", Toast.LENGTH_SHORT).show();
+                Intent intent3 = new Intent(CategoryActivity.this,AboutUsActivity.class);
+                startActivity(intent3);
                 return true;
             case R.id.login:
                 Intent intent = new Intent(CategoryActivity.this, LoginActivity.class);

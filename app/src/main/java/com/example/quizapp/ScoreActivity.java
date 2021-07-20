@@ -28,7 +28,8 @@ public class ScoreActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case R.id.aboutus:
-                Toast.makeText(this, "Should go to About Us page", Toast.LENGTH_SHORT).show();
+                Intent intent3 = new Intent(ScoreActivity.this,AboutUsActivity.class);
+                startActivity(intent3);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
