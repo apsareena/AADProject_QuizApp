@@ -24,6 +24,7 @@ public class RegisterActivity extends AppCompatActivity {
     private TextView login;
     private static final String TAG = "FirebaseEmailPassword";
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,6 +44,8 @@ public class RegisterActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+
 
         registerB.setOnClickListener(new View.OnClickListener() {
             @Override
