@@ -6,4 +6,20 @@
         the multiple choice questions for General Knowledge. It consists of
         different sets of question papers, and each question has a timer.
         We would be able to answer the question within that time only.</string>
+    <string name="developer_details">Developer Details :</string>
+    <string name="apsareena_zulekha_shaik">Apsareena Zulekha Shaik</string>
+    <string name="sanisetty_mohana_lasya">Sanisetty Mohana Lasya</string>
+    <string name="anudeep_tadikamalla">Anudeep Tadikamalla</string>
+    <string name="aluru_lakshmi_naga_sai_likhita">Aluru Lakshmi Naga Sai Likhita</string>
+    <string name="popuri_lakshmi_sravani">Popuri Lakshmi Sravani</string>
+    <string name="sign_in">Sign In</string>
+    <string name="login">Login</string>
+    <string name="my_quiz">My Quiz</string>
+    <string name="start">Start</string>
+    <string name="question">Question</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="register">Register</string>
+    <string name="emailid">Email Id</string>
+    <string name="password">Password</string>
+    <string name="loading">Loading...</string>
 </resources>

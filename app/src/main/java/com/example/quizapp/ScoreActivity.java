@@ -17,7 +17,6 @@ public class ScoreActivity extends AppCompatActivity {
     private TextView score;
     private Button done;
     
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
