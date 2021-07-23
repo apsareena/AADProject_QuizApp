@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/bg">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -61,6 +62,7 @@
         android:layout_marginBottom="16dp"
         android:ems="10"
         android:hint="@string/emailid"
+        android:textColorHint="@color/colorAccent"
         android:backgroundTint="@color/purple_500"
         android:textCursorDrawable="@null"
         android:inputType="textEmailAddress"
@@ -77,6 +79,7 @@
         android:layout_marginBottom="32dp"
         android:hint="@string/password"
         android:textCursorDrawable="@null"
+        android:textColorHint="@color/colorAccent"
         android:backgroundTint="@color/purple_500"
         android:ems="10"
         android:inputType="textPassword"
