@@ -6,7 +6,7 @@ This application is developed for educational purpose and to improve our knowled
 https://docs.google.com/presentation/d/1F7J-eXC8mR04uexXFWDrMr1YDakP0zCbyzXuCJDw82c/edit?ts=60f1aafd#slide=id.p
 
 # Screenshots
-![1](https://user-images.githubusercontent.com/63224321/126782663-c3635a8f-798f-43c3-ab01-23b68fdf7989.png)
+#### ![1](https://user-images.githubusercontent.com/63224321/126782663-c3635a8f-798f-43c3-ab01-23b68fdf7989.png)
 ![2](https://user-images.githubusercontent.com/63224321/126782668-671d247f-f781-4312-8079-b47919e3bf55.png)
 ![3](https://user-images.githubusercontent.com/63224321/126782669-adf9f213-9353-4b0d-a64a-3f4ac071765c.png)
 ![4 (1)](https://user-images.githubusercontent.com/63224321/126782670-f8a9f4a8-105f-4910-b16b-26f619609761.png)
