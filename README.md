@@ -8,8 +8,8 @@ https://docs.google.com/presentation/d/1F7J-eXC8mR04uexXFWDrMr1YDakP0zCbyzXuCJDw
 # Screenshots
 
 ## Developers
-### Apsareena Zulekha Shaik - AP19110010086
-### Anudeep Tadikamalla - AP19110010048
-### Sanisetty Mohana Lasya - AP19110010084
-### Popuri Lakshmi Sravani - AP19110010240
-### Aluru Lakshmi Naga Sai Likhita - AP19110010077
+Apsareena Zulekha Shaik - AP19110010086
+Anudeep Tadikamalla - AP19110010048
+Sanisetty Mohana Lasya - AP19110010084
+Popuri Lakshmi Sravani - AP19110010240
+Aluru Lakshmi Naga Sai Likhita - AP19110010077
