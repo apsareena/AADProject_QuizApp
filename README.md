@@ -5,7 +5,7 @@ This application is developed for educational purpose and to improve our knowled
 # Presentation
 https://docs.google.com/presentation/d/1F7J-eXC8mR04uexXFWDrMr1YDakP0zCbyzXuCJDw82c/edit?ts=60f1aafd#slide=id.p
 
-# Screenshots
+## Screenshots
 <img src="https://user-images.githubusercontent.com/85475820/126859129-bf4dba7a-8d35-4e20-89f0-ea1fa56108db.png" height=550 width=250><img src="https://user-images.githubusercontent.com/85475820/126859130-eaf80a1e-b899-4fbf-b8dd-7b61a60896f2.png" height=550 width=250>
 <img src="https://user-images.githubusercontent.com/85475820/126859111-59a75ef3-b024-4ef4-bf00-6bb98673f44c.png" height=550 width=250>
 <img src="https://user-images.githubusercontent.com/85475820/126859112-d8edea22-7380-4a97-83ca-586b52d09b1e.png" height=550 width=250>
@@ -17,11 +17,9 @@ https://docs.google.com/presentation/d/1F7J-eXC8mR04uexXFWDrMr1YDakP0zCbyzXuCJDw
 <img src="https://user-images.githubusercontent.com/85475820/126859125-25a80c1a-ebe2-4ce2-b842-05577e5eb64d.png" height=550 width=250>
 <img src="https://user-images.githubusercontent.com/85475820/126859126-d6dbff83-5338-40e4-9366-cd879bc47416.png" height=550 width=250>
 
-
-
 ## Developers
 
-#### Apsareena Zulekha Shaik - AP19110010086!
+#### Apsareena Zulekha Shaik - AP19110010086
 #### Anudeep Tadikamalla - AP19110010048
 #### Sanisetty Mohana Lasya - AP19110010084
 #### Popuri Lakshmi Sravani - AP19110010240
