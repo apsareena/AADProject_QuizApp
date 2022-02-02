@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Anudeep/Documents/GitHub/AADProject_QuizApp/app/src/main/res/drawable/border.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Anudeep/Documents/GitHub/AADProject_QuizApp/app/src/main/res/drawable/ic_home.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Anudeep/Documents/GitHub/AADProject_QuizApp/app/src/main/res/drawable/main_background.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Anudeep/Documents/GitHub/AADProject_QuizApp/app/src/main/res/drawable/progress_background.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Anudeep/Documents/GitHub/AADProject_QuizApp/app/src/main/res/drawable/round_corner.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Anudeep/Documents/GitHub/AADProject_QuizApp/app/src/main/res/layout/activity_questions.xml" value="0.24615384615384617" />
+        <entry key="..\:/Users/Anudeep/Documents/GitHub/AADProject_QuizApp/app/src/main/res/layout/cat_item_layout.xml" value="0.24615384615384617" />
+        <entry key="..\:/Users/Anudeep/Documents/GitHub/AADProject_QuizApp/app/src/main/res/menu/menu.xml" value="0.24615384615384617" />
+        <entry key="..\:/Users/Anudeep/Documents/GitHub/AADProject_QuizApp/app/src/main/res/menu/menu_auth.xml" value="0.24615384615384617" />
+        <entry key="..\:/Users/Anudeep/Documents/GitHub/AADProject_QuizApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.26614583333333336" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
